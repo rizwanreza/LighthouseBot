@@ -1,0 +1,12 @@
+LighthouseBot used in #rails-contrib.
+
+
+= Autumn: A Ruby IRC Bot Framework
+
+<b>Version 3.0 (Jul 4, 2008)</b>
+
+Author::    Tim Morgan (mailto:autumn@timothymorgan.info)
+Copyright:: Copyright (c)2007-2008 Tim Morgan
+License::   Distributed under the same terms as Ruby. Portions of this code are
+            copyright (c)2004 David Heinemeier Hansson; please see
+            libs/inheritable_attributes.rb for more information.

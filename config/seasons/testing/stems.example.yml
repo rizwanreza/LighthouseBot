@@ -1,0 +1,8 @@
+Lighthouse: 
+  nick: LighthouseBot
+  password: "enter password here"
+  leaves: 
+    - Lighthouse
+  rejoin: true
+  channel: "#rails-contrib"
+  server: irc.freenode.net

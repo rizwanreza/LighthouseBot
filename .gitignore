@@ -1,0 +1,4 @@
+log/*
+tmp/*
+doc/*
+config/seasons/testing/stems.yml
