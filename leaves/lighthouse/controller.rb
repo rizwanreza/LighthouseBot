@@ -1,19 +1,11 @@
 # Controller for the lighthouse leaf.
 
 class Controller < Autumn::Leaf
-  FORTUNES = [
-    "You will make someone happy today.",
-    "Someone you don't expect will be important to you today.",
-    "Today will bring unexpected hardships."
-  ]
-  # Typing "!about" displays some basic information about this leaf.
-  
   def did_start_up
-    stems.message 'Lightbot at your service! Type "!about" to know about me!'
+    stems.message 'Lightbot at your service! Type "!ticket (ticket number)" to get a link.'
   end
   
   def about_command(stem, sender, reply_to, msg)
-    # This method renders the file "about.txt.erb"
   end
 
   def ticket_command(stem, sender, reply_to, msg)
