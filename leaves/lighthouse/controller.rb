@@ -5,6 +5,12 @@ class Controller < Autumn::Leaf
     stems.message 'Lightbot at your service! Type "!ticket (ticket number)" to get a link.'
   end
   
+  def did_receive_channel_message(stem, sender, channel, msg)
+    if msg =~ /#(\d{2,})/
+      stems.message "http://rails.lighthouseapp.com/projects/8994/tickets/#{$1}"
+    end
+  end
+  
   def about_command(stem, sender, reply_to, msg)
   end
 
