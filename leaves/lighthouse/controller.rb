@@ -35,7 +35,7 @@ class Controller < Autumn::Leaf
   end
 
   def josevalim_command(stem, sender, reply_to, msg)
-    "José Valim: http://yehudakatz.com/"
+    "José Valim: http://blog.plataformatec.com.br/"
   end
   
   def carllerche_command(stem, sender, reply_to, msg)
